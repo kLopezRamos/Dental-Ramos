@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Abhaya Libre', serif;
+	font-size: 20px;
+}
+
+.usuariocontra {
+	font-size: 25px;
+	font-family: 'Abhaya Libre', serif;
+	padding: 5px;
+	text-align: left;
+}
+
+form {
+	padding: 70px 40px;
+	background-color: rgba(23, 46, 61, 0.9); /* Ajuste de transparencia */
+	margin: auto;
+	margin-top: 220px;
+	padding-top: 15px;
+	margin-bottom: 30px;
+	border-radius: 15px;
+	width: 400px; /* Puedes ajustar el ancho para que no ocupe tanto espacio */
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+#inicio {
+	font-size: 35px;
+	text-align: center;
+	padding: 12px;
+	color: rgb(255, 255, 255);
+}
+
+input {
+	width: calc(100% - 20px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 23px;
+	border-radius: 15px;
+	border: 3px solid;
+}
+
+input[type='submit'] {
+	background-color: rgba(66, 167, 168, 1);
+	font-family: 'Abhaya Libre', serif;
+	font-size: 35px;
+	color: white;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 30px;
+	border: 1px solid black;
+	border-radius: 50px;
+}
+
+input[type='submit']:hover {
+	background-color: rgb(36, 90, 91);
+	cursor: pointer;
+}
+
+.bad {
+	text-align: center;
+	padding-top: 25px;
+	width: 100%;
+	height: 50px;
+	background-color: #a22;
+	color: #fff;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
+body {
+	background-image: url(../img/fondo-login.png);
+	background-position: center top; /* Centra el fondo y lo coloca en la parte superior */
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%; /* Asegura que el fondo cubra toda la ventana */
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

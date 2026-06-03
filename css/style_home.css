@@ -1,0 +1,79 @@
+/* Estilos para la barra lateral */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed; /* Fija la barra lateral */
+    top: 0;
+    left: 0;
+    background-color: #343a40;
+    padding: 10px;
+    z-index: 1000;
+    overflow-y: auto;
+}
+
+/* Asegura que la barra lateral no se desplace con el contenido */
+.content {
+    margin-left: 250px; /* Deja espacio para la barra lateral */
+    height: 100vh;
+    overflow-y: auto; /* Hacer que el contenido sea desplazable */
+    padding: 20px;
+}
+
+
+/* Estilos para los iconos */
+.icono {
+    width: 50px;
+    height: 50px;
+}
+  
+.iconoletra {
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Afacad', sans-serif;
+    font-size: 30px;
+}
+.iconoletra:hover{
+    text-decoration-line: none;
+    color: rgba(126,226,228,1);
+    font-family: 'Afacad', sans-serif;
+    font-size: 30px;
+}
+#cerrarsesion{
+    text-decoration-line: none;
+    color: white;
+    font-family: 'Afacad', sans-serif;
+    font-size: 30px;
+}
+#cerrarsesion:hover{
+    text-decoration-line: none;
+    color: rgba(126,226,228,1);
+    font-family: 'Afacad', sans-serif;
+    font-size: 30px;
+    background-color: #343a40;
+    border-radius: 2px;
+}
+
+/* Estilos para las tablas */
+.table {
+    width: 100%;
+}
+
+/* Ajuste de la tabla y el área de contenido principal */
+.main-content {
+    background-color: #e0f7f9;
+    padding: 20px;
+    border-radius: 5px;
+    min-height: 90vh;
+}
+
+/* Ajustar la imagen del logo */
+#diente {
+    width: 300px;
+    height: 235px;
+}
+
+/* Ajustes del encabezado de la tabla */
+.table th {
+    background-color: #343a40;
+    color: white;
+}
