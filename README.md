@@ -72,6 +72,6 @@ To correctly link the PHP interpreter with Visual Studio Code:
 
 ## Database Structure
 
-The relational database follows normalization principles to reduce redundancy, achieving compliance up to the Second Normal Form (2NF). It is composed of the following main tables and relationships:
+The database schema was designed following Third Normal Form (3NF) principles to minimize redundancy and maintain data consistency.
 
 <p align="center"><img src="./img/RDB.png" alt="Database Diagram" width="800" height="800"></p>
