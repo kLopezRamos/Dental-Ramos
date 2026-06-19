@@ -5,9 +5,10 @@
 This project was developed as a technological solution to replace manual record-keeping and paper-based documentation. Its goal is to reduce human errors, minimize the time spent searching for records, and centralize essential patient health information such as allergies, pre-existing conditions, blood pressure, and other relevant medical data.
 
 <p align="center">
-  <img src="./img/ss1.png" alt="Log in" width="300" height="150" style="display: inline-block;">
-  <img src="./img/ss2.png" alt="Control pannel" width="300" height="150" style="display: inline-block;">
+  <img src="./img/ss1.png" alt="Log in" width="500" height="450" style="display: inline-block;">
+  <img src="./img/ss2.png" alt="Control pannel" width="500" height="450" style="display: inline-block;">
 </p>
+
 ---
 
 ## Tech Stack
