@@ -17,7 +17,7 @@ The system is built using a standard web-based architecture that enables efficie
 
 - **Frontend / User Interface:** HTML5, CSS3, JavaScript (Modern native syntax).
 - **Backend / Business Logic:** PHP (Version 7.4 or higher).
-- **Database:** MySQL / MariaDB.
+- **Database:** MySQL.
 - **Local Server & Administration:** XAMPP and phpMyAdmin.
 - **Development Environment:** Visual Studio Code.
 
